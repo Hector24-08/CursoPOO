@@ -3,6 +3,8 @@ package com.adrian.cursopoo;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+// Importando clase Loro del paquete animales
+import com.adrian.animales.Loro;
 
 public class MainActivity extends Activity {
 
@@ -11,47 +13,15 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(new View(this));
 
-        // Creando o instanciqndo un objeto de la
-        // Clase Gato
+        // Instanciando un objeto
+        // de la clase Loro
 
-        Gato pepe = new Gato();
-        // Accediendo al atributo edad con el objeto
-        // pepe
-        pepe.edad = 23;
+        Loro pepito = new Loro();
 
-        // Accediendo al metodo comer con el objeto
-        // pepe
-        pepe.comer();
-    }
+        pepito.alas = 2;
 
-    // Definiendo o implementado la clase Gato
+        pepito.tiempoVidad = 23;
 
-    class Gato {
-
-        // Atributos o propiedades
-        // de la clase Gato
-        int edad = 5;
-        int peso = 4;
-        char sexo = 'M';
-        boolean vivo = true;
-
-        // Metodos de la clase Gato
-        void comer() {}
-
-        void dormir() {}
-
-        void mauyar() {}
-    }
-
-    class Planta {
-
-        // Atributos
-        int edad = 12;
-        int tamano = 34;
-
-        // Metodos
-        void dorrmir() {}
-
-        void crece() {}
+        pepito.comer();
     }
 }
