@@ -1,27 +1,41 @@
 package com.adrian.cursopoo;
 
-import android.app.Activity;
-import android.os.Bundle;
 import android.view.View;
-// Importando clase Loro del paquete animales
-import com.adrian.animales.Loro;
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
 
-public class MainActivity extends Activity {
+import com.adrian.electrodomesticos.Lapto;
+import com.adrian.electrodomesticos.PSP;
+import com.adrian.electrodomesticos.Tablet;
+
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+
         setContentView(new View(this));
 
-        // Instanciando un objeto
-        // de la clase Loro
+        Lapto vid = new Lapto();
 
-        Loro pepito = new Loro();
+        vid.cargar();
+        vid.encender(23.34f);
+        vid.potenciaMaxiama(true);
+        vid.numeroNucleos = 8;
 
-        pepito.alas = 2;
+        Tablet canaima = new Tablet();
 
-        pepito.tiempoVidad = 23;
+        canaima.inivir();
+        canaima.encender(2.3f);
+        canaima.potenciaMaxiama(true);
+        canaima.numeroNucleos = 4;
 
-        pepito.comer();
+        PSP pspVita = new PSP();
+
+        pspVita.configurar();
+        pspVita.encender(4.4f);
+        pspVita.potenciaMaxiama(true);
+        pspVita.numeroNucleos = 8;
     }
 }
