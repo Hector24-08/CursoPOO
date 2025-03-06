@@ -1,50 +1,20 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/CursoPOO/app/src/main/java/com/adrian/naves/Avion.java",
+      "file": "/storage/emulated/0/AndroidIDEProjects/CursoPOO/app/src/main/java/com/adrian/cursopoo/MainActivity.java",
       "selection": {
         "end": {
-          "column": 18,
-          "index": 18,
-          "line": 0
+          "column": 30,
+          "index": 999,
+          "line": 34
         },
         "start": {
-          "column": 12,
-          "index": 12,
-          "line": 0
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/CursoPOO/app/src/main/java/com/adrian/naves/Chip.java",
-      "selection": {
-        "end": {
-          "column": 18,
-          "index": 18,
-          "line": 0
-        },
-        "start": {
-          "column": 18,
-          "index": 18,
-          "line": 0
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/CursoPOO/app/src/main/java/com/adrian/naves/Nave.java",
-      "selection": {
-        "end": {
-          "column": 18,
-          "index": 18,
-          "line": 0
-        },
-        "start": {
-          "column": 18,
-          "index": 18,
-          "line": 0
+          "column": 30,
+          "index": 999,
+          "line": 34
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/CursoPOO/app/src/main/java/com/adrian/naves/Avion.java"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/CursoPOO/app/src/main/java/com/adrian/cursopoo/MainActivity.java"
 }
